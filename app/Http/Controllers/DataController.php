@@ -92,4 +92,19 @@ class DataController extends Controller
     {
         return view('profil-perusahaan');
     }
+
+    public function publikTraining()
+    {
+        return view('publik-training');
+    }
+
+    public function newUnitForkLift()
+    {
+        return view('new-unit-forklift');
+    }
+
+    public function servisDevisionProgram()
+    {
+        return view('service-devision-program');
+    }
 }

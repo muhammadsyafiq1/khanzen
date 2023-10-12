@@ -8,7 +8,7 @@
     </style>
 @endpush
 @section('title')
-    Profil perusahaan
+    Public Training
 @endsection
 @section('content')
     <div class="swiper-container" id="top">

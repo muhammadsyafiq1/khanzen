@@ -21,5 +21,9 @@ Route::get('/', function () {
 
 Route::get('/cek-sertifikat', [MainController::class, 'cekSertifikat']);
 Route::resource('sertifikat', DataController::class);
+Route::get('profil-perushaan', [DataController::class, 'profilPerusahaan']);
+Route::get('publik-training', [DataController::class, 'publikTraining']);
+Route::get('new-unit-forklift', [DataController::class, 'newUnitForkLift']);
+Route::get('service-devision-program', [DataController::class, 'servisDevisionProgram']);
 
 require __DIR__.'/auth.php';

@@ -8,7 +8,7 @@
     </style>
 @endpush
 @section('title')
-    Profil perusahaan
+    Service Devision Program
 @endsection
 @section('content')
     <div class="swiper-container" id="top">

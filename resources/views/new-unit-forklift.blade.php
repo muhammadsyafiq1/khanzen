@@ -8,7 +8,7 @@
     </style>
 @endpush
 @section('title')
-    Profil perusahaan
+    New unit forklift
 @endsection
 @section('content')
     <div class="swiper-container" id="top">

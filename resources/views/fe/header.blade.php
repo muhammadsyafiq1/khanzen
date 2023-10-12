@@ -10,7 +10,7 @@
                         <li class="has-sub">
                             <a href="javascript:void(0)">Tentang Kami</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html">Profil Perusahaan</a></li>
+                                <li><a href="{{ url('profil-perushaan') }}">Profil Perusahaan</a></li>
                                 <li><a href="contact-us.html">Gallery Training</a></li>
                                 <li><a href="contact-us.html">Blog</a></li>
                             </ul>
@@ -18,7 +18,7 @@
                         <li class="has-sub">
                             <a href="javascript:void(0)">Training</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html">Publik Training</a></li>
+                                <li><a href="{{ url('publik-training') }}">Publik Training</a></li>
                                 <li><a href="our-services.html">Inhouse Training</a></li>
                                 <li><a href="contact-us.html">Kursus Operator Forklift</a></li>
                                 <li><a href="contact-us.html">Kursus Mekanik Forklift</a></li>
@@ -29,7 +29,7 @@
                         <li class="has-sub">
                             <a href="javascript:void(0)">Sale</a>
                             <ul class="sub-menu">
-                                <li><a href="about-us.html">New Unit Forklift</a></li>
+                                <li><a href="{{ url('new-unit-forklift') }}">New Unit Forklift</a></li>
                                 <li><a href="our-services.html">Second Unit Forklift</a></li>
                                 <li><a href="contact-us.html">Attachment Forklift</a></li>
                                 
@@ -38,7 +38,7 @@
                         <li class="has-sub">
                             <a href="javascript:void(0)">Services & Maintenance</a>     
                             <ul class="sub-menu">
-                                <li><a href="contact-us.html">Service Devision Program</a></li>
+                                <li><a href="{{ url('service-devision-program') }}">Service Devision Program</a></li>
                                 <li><a href="contact-us.html">Perbaikan Forklift</a></li>
                                 <li><a href="contact-us.html">Rekondisi Forklift</a></li>
                                 <li><a href="contact-us.html">Service Periodik</a></li>
@@ -49,7 +49,7 @@
                         </li>
                         <li class="scroll-to-section"><a href="#about">Riksa Uji</a></li>
                         <li class="scroll-to-section"><a href="{{ route('sertifikat.index') }}">Cek Sertifikat</a></li>
-                        <li class="scroll-to-section"><a href="#testimonials">Hubungi Kami</a></li>
+                        <li class="scroll-to-section"><a href="{{ url('login') }}">Login</a></li>
                         {{-- <li><a href="contact-us.html">Lihat Jadwal 2023</a></li>  --}}
                     </ul>        
                     <a class='menu-trigger'>

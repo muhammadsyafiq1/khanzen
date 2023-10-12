@@ -19,21 +19,6 @@
             <div class="slide-inner" style="background-image:url(fe/assets/images/banner2.webp)">
             <div class="container">
                 <div class="row">
-                {{-- <div class="col-lg-8">
-                    <div class="header-text">
-                    <h2><em>Digital</em> Currency for you <br>&amp; Best <em>Crypto</em> Tips</h2>
-                    <div class="div-dec"></div>
-                    <p>You will see a bunch of free CSS templates when you search on Google. TemplateMo website is probably the best one because it is 100% free. It does not ask you anything in return. You have a total freedom to use any template for any purpose.</p>
-                    <div class="buttons">
-                        <div class="green-button">
-                        <a href="#">Discover More</a>
-                        </div>
-                        <div class="orange-button">
-                        <a href="#">Contact Us</a>
-                        </div>
-                    </div>
-                    </div>
-                </div> --}}
                 </div>
             </div>
             </div>

@@ -7,6 +7,9 @@
         }
     </style>
 @endpush
+@section('title')
+    Cek Sertifikat
+@endsection
 @section('content')
     <!-- ***** Main Banner Area Start ***** -->
     <div class="swiper-container" id="top">
