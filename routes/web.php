@@ -26,4 +26,8 @@ Route::get('publik-training', [DataController::class, 'publikTraining']);
 Route::get('new-unit-forklift', [DataController::class, 'newUnitForkLift']);
 Route::get('service-devision-program', [DataController::class, 'servisDevisionProgram']);
 
+//dashborad
+Route::get('dashboard', [DataController::class, 'dashboard']);
+
+
 require __DIR__.'/auth.php';

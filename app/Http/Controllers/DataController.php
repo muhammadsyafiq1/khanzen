@@ -107,4 +107,9 @@ class DataController extends Controller
     {
         return view('service-devision-program');
     }
+
+    public function dashboard()
+    {
+        return "ini halaman dashboard (soon)";
+    }
 }
